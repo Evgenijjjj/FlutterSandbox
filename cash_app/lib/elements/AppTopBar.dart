@@ -8,7 +8,7 @@ class AppTopBar {
       title: new Text(title),
       backgroundColor: Colors.deepOrange,
       centerTitle: !showAddBtn,
-      elevation: 1.5,
+      elevation: 2.0,
       actions: <Widget>[
         Visibility(
           child: new IconButton(icon: Icon(Icons.add),
